@@ -21,6 +21,6 @@ A list of signed adjacency matrices and the corresponding graph
 Generate a signed adjacency matrix
 }
 \examples{
-signed_adjacency_matrix(q=0.5, N=50)
-signed_adjacency_matrix(q=1, N=50, p=0.5)
+signed_adjacency_matrix(N=10, p=1)
+signed_adjacency_matrix(N=50, p=0.8, q=0.5)
 }

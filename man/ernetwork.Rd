@@ -22,7 +22,7 @@ The data set contains the triad numbers and Energy of the signed network for
  the given N, p and q values
 }
 \examples{
- barplot(ernetwork$traid_num, names.arg = ernetwork$N)
+ plot(ernetwork$N, ernetwork$triad_num)
 }
 \keyword{datasets}
 \keyword{ernetwork}
