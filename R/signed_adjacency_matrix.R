@@ -6,8 +6,8 @@
 #' @returns A list of signed adjacency matrices and the corresponding graph
 #'          object
 #' @examples
-#' signed_adjacency_matrix(q=0.5, N=50)
-#' signed_adjacency_matrix(q=1, N=50, p=0.5)
+#' signed_adjacency_matrix(N=10, p=1)
+#' signed_adjacency_matrix(N=50, p=0.8, q=0.5)
 #' @export
 signed_adjacency_matrix <- function(N, p, q=1) {
   stopifnot (is.numeric(N),

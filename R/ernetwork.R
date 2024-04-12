@@ -16,5 +16,5 @@
 #'  }
 #' @keywords datasets ernetwork
 #' @examples
-#'  barplot(ernetwork$traid_num, names.arg = ernetwork$N)
+#'  plot(ernetwork$N, ernetwork$triad_num)
 "ernetwork"
